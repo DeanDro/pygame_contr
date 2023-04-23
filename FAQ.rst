@@ -48,18 +48,18 @@ Pygame. Make sure to check online for more examples to get inspired.
 
 Can I build 3D games with Pygame?
 -----------------------------------
-The short answer is not by iteself! Pygame was built as a 2D library for
+The short answer is not easily! Pygame was built as a 2D library for
 simple 2D animation and games to help developers build simple fun projects.
 However, Pygame has become a very popular library with thousands of users
-and hundreds of contributors. As a result, several open source libraries 
+and hundreds of contributors. As a result, several open source libraries that
 are using Pygame in the backend to build 3D game engines. One good example
 is PyEngine3D (https://github.com/ubuntunux/PyEngine3D), which is an open
 source engine that uses pygame and pyglet at the backend. 
 
 If you are already somewhat familiar with Pygame and you want to start
 learning the 3D game development, you can use Pygame to learn the basics
-of 3D animation. A good tutorial for this is available from Peter 
-Collingridge at https://www.petercollingridge.co.uk/tutorials/3d/pygame/ .
+of 3D animation. A good tutorial is available from Peter Collingridge
+(https://www.petercollingridge.co.uk/tutorials/3d/pygame/).
 
 Nevertheless, our suggestion if you are a beginner is to start
 with Pygame before jumping into the world of 3D development. 
@@ -90,6 +90,7 @@ April 2023 (https://pygames.devpost.com/). In addition to that there are
 several game hackathons that take place online or in-person. 
 A good resource if you want to check upcoming online and in-person hackathons
 is DevPost (https://devpost.com/).
+
 
 What if I am unable to install Pygame using pip?
 ------------------------------------------------
@@ -159,7 +160,6 @@ Now that have activated the the environment type: ``pip install pygame``
 
 This will download pygame and install it in your environment for use.
 
-
 Optional 
 ~~~~~~~~~
 It is common that our virtual environment is outdated using older versions
@@ -183,8 +183,8 @@ This should install pygame manually in your project.
 2. To ensure pygame has been installed correctly, create a new file in your
 project with the following content: 
 
-``import pygame
-  print(pygame.ver)``
+``import pygame``
+``print(pygame.ver)``
 
 
 How to solve DLL load failed error in Win32 application? 
