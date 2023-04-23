@@ -36,8 +36,7 @@ have left out:
 
 * Flappy Bird: https://flappybird.io/ 
 
-* Super Potato Bruh: 
-https://store.steampowered.com/app/951360/Super_Potato_Bruh/
+* Super Potato Bruh: https://www.pygame.org/project/3687/6102
 
 * SREM: https://github.com/lukasz1985/SREM 
 
@@ -47,7 +46,7 @@ The list goes on and on, so this is only a sample of games written with
 Pygame. Make sure to check online for more examples to get inspired.
 
 
-Can I use 3D graphics with Pygame?
+Can I build 3D games with Pygame?
 -----------------------------------
 The short answer is not by iteself! Pygame was built as a 2D library for
 simple 2D animation and games to help developers build simple fun projects.
@@ -57,13 +56,45 @@ are using Pygame in the backend to build 3D game engines. One good example
 is PyEngine3D (https://github.com/ubuntunux/PyEngine3D), which is an open
 source engine that uses pygame and pyglet at the backend. 
 
-Nevertheless, our suggestion, especially if you are a beginner is to start
+If you are already somewhat familiar with Pygame and you want to start
+learning the 3D game development, you can use Pygame to learn the basics
+of 3D animation. A good tutorial for this is available from Peter 
+Collingridge at https://www.petercollingridge.co.uk/tutorials/3d/pygame/ .
+
+Nevertheless, our suggestion if you are a beginner is to start
 with Pygame before jumping into the world of 3D development. 
 
+
+Is Pygame only good for game development? 
+-----------------------------------------
+While Pygame is primarily focused on 2D game development, it doesn't mean
+that this is only what it is good for. Pygame is generally good for other
+types of multimedia applications such as photo viewers, visual simulations,
+presentation tools, etc. Some examples of such applications are: 
+
+* PyBonFire: https://www.pygame.org/project/162
+
+* PySeen: https://www.pygame.org/project/146
+
+* IMGV: https://www.pygame.org/project/54
+
+* Pyntor: https://www.pygame.org/project/214
+
+
+Are there any competitions for Pygame developers? 
+-------------------------------------------------
+Pygame has thousands of users and hundreds of contributors. So it is no
+surpise that there are also competitions developed around Pygame. The most
+resent one was on March 2023 with pygames hachathons that run until 17th 
+April 2023 (https://pygames.devpost.com/). In addition to that there are
+several game hackathons that take place online or in-person. 
+A good resource if you want to check upcoming online and in-person hackathons
+is DevPost (https://devpost.com/).
 
 What if I am unable to install Pygame using pip?
 ------------------------------------------------
 If you are running on Linux the easiest way to install Pygame using pip is
+
 1. Install build dependencies:
 
 ``sudo apt-get build-dep python-pygame``
@@ -153,7 +184,7 @@ This should install pygame manually in your project.
 project with the following content: 
 
 ``import pygame
-print(pygame.ver)``
+  print(pygame.ver)``
 
 
 How to solve DLL load failed error in Win32 application? 
